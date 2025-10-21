@@ -1,0 +1,18 @@
+{
+  "name": "collabsphere",
+  "version": "1.0.0",
+  "description": "Team collaboration platform built with MERN stack",
+  "scripts": {
+    "install-all": "cd backend && npm install && cd ../frontend && npm install",
+    "start": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm start"
+  },
+  "keywords": ["mern", "collaboration", "real-time", "socket.io"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
